@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tea_item.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @tea_item.description %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @tea_item.image %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @tea_item.link %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @tea_item.price %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @tea_item.type %>
+</p>
+
+<%= link_to 'Edit', edit_tea_item_path(@tea_item) %> |
+<%= link_to 'Back', tea_items_path %>
