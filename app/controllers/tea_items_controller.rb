@@ -19,6 +19,7 @@ class TeaItemsController < ApplicationController
   # GET /tea_items/1
   # GET /tea_items/1.json
   def show
+    @tea_item = TeaItem.find(params[:id])
   end
 
 
